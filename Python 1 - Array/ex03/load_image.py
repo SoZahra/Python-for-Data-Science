@@ -22,4 +22,5 @@ def ft_load2(path: str) -> np.ndarray:
     
     return gray
 
-if __name__ == "__main__": ft_load2("animal.jpeg")
+if __name__ == "__main__": 
+    ft_load2("animal.jpeg")
