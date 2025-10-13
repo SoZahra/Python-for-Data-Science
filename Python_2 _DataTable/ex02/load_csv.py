@@ -1,5 +1,5 @@
 import pandas as pd
-#(You have to adapt the type of return according to your library)
+
 
 def load(path: str):
 	"""
