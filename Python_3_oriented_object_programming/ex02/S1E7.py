@@ -12,7 +12,7 @@ Le burger n'est prepare qu'une fois !
 class Baratheon(Character):
 	"""Representing the Baratheon family."""
 
-	def __init__(first_name, is_alive=True):
+	def __init__(self, first_name, is_alive=True):
 		"""Constructeur, il va servir a init nos attributs"""
 		# Appeler le constructeur parent avec les valeurs Baratheon
 		super().__init__( # super accede a la classe parent
